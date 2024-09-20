@@ -1,0 +1,468 @@
+@media (min-width:320px) {
+    .header {
+        height: auto;
+        width: 100%;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 40%;
+
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .navbar ul li {
+        padding: 3px;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .content-container {
+        width: 90%;
+        height: 50%;
+
+    }
+
+    .content-container h2 {
+        text-align: center;
+    }
+
+    .article {
+        height: auto;
+    }
+
+    .article-container h2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    }
+
+    .gallery-container .box {
+
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .gallery-container .box img {
+        box-shadow: none;
+        border-radius: 0px;
+        border-radius: 8px;
+    }
+
+}
+
+@media (min-width:767px)
+{
+    .header {
+        height: auto;
+        width: 100%;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        width: 30%;
+
+    }
+
+    .logo img {
+        width: 100%;
+        height: 100px;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .navbar ul li {
+        padding: 3px;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .content-container {
+        width: 90%;
+        height: 50%;
+
+    }
+
+    .content-container h2 {
+        text-align: center;
+    }
+
+    .article {
+        height: auto;
+    }
+
+    .article-container h2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    } 
+    .gallery-container .box {
+
+        width: 45%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-container .box img {
+        box-shadow: none;
+        border-radius: 0px;
+        border-radius: 8px;
+    }
+}
+
+@media (min-width:1024px)
+{
+    .header {
+        width: 100%;
+        background-color:#551E19;
+        
+        
+    }
+    
+    .header-container {
+        width: 80%;
+        height: 80px;
+        background-color:#551E19;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0%;
+    }
+    
+    .logo {
+        width: 15%;
+    }
+    
+    .logo img {
+         width: 90%;
+         height: 80px;
+       
+    }
+    .navbar {
+        width: 85%;
+    
+    }
+    
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        padding: 0px 25px;
+        font-size: 17px;
+        
+        font-weight: normal;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #e2ad7c;   
+    }
+    .navbar ul li a::after
+    {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #e2ad7c; ;
+        width: 0%;
+        margin: auto;
+        transition: 0.7s;
+        position: relative;
+        top: 5px;
+        
+    }
+    .navbar ul li a:hover::after
+    {
+        width: 100%;
+    }
+    .content {
+        height: auto;
+    }
+
+    .content-container {
+        width: 90%;
+        height: 50%;
+
+    }
+
+    .content-container h2 {
+        text-align: center;
+    }
+
+    .article {
+        height: auto;
+    }
+
+    .article-container h2 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .gallery {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-container {
+        width: 90%;
+        height: auto;
+        margin: auto;
+
+    } 
+    .gallery-container .box {
+
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-container .box img {
+        box-shadow: none;
+        border-radius: 0px;
+        border-radius: 8px;
+    }
+ 
+
+
+}
+
+@media (min-width:1710px)
+
+{
+    .header {
+        width: 100%;
+        background-color:#551E19;
+        
+        
+    }
+    
+    .header-container {
+        width: 80%;
+        height: 80px;
+        background-color:#551E19;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        width: 15%;
+    }
+    
+    .logo img {
+         width: 90%;
+         height: 80px;
+       
+    }
+    
+    .navbar {
+        width: 85%;
+    
+    }
+    
+    .navbar ul {
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        padding: 0px 25px;
+        font-size: 17px;
+        
+        font-weight: normal;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #e2ad7c;   
+    }
+    .navbar ul li a::after
+    {
+        content: "";
+        display: block;
+        border-bottom: 2px solid #e2ad7c; ;
+        width: 0%;
+        margin: auto;
+        transition: 0.7s;
+        position: relative;
+        top: 5px;
+        
+    }
+    .navbar ul li a:hover::after
+    {
+        width: 100%;
+    }
+    .content
+    {
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+    .content-container
+    {
+        width: 80%;
+        /* height: 340px; */
+        margin: auto;
+    }
+    .content-container h2
+    {
+        font-size: 25px;
+        padding-bottom: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #99592A;
+        text-align: start;
+        
+        
+    }
+    .content-container p
+    {
+        text-align:justify;
+        word-spacing: 7px;
+        line-height: 30px;
+        font-size: 18px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #926c46;
+        
+    }
+    .article
+    {
+        width: 100%;
+    
+    }
+    .article-container
+    {
+        width: 80%;
+        margin: auto;
+    
+    }
+    .article-container h2
+    {
+        font-size: 23px;
+        padding-bottom: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #99592A;
+        text-align: start;
+        
+        
+    }
+    .gallery
+    {
+        width: 100%;
+        /* background-color: yellow; */
+    }
+    .gallery-container
+    {
+        width: 80%;
+        height: 550px;
+        /* background-color: aqua; */
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    
+    .gallery-container .box {
+        width: 20%;
+        height: 550px;
+        /* background-color: orange; */
+       
+    }
+    .gallery-container .box img
+    {
+        width: 100%;
+        height: 470px;
+        border-radius: 8px;
+        
+    }
+    
+    .box h3
+    {
+       text-align: center; 
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       color: #99592A;
+       padding-top: 13px;
+    }
+    .footer
+    {
+    width: 100%;
+    background-color: #551E19;
+    }
+    .footer-container
+    {
+        width: 80%;
+        height: 80px;
+        margin: auto;
+        
+    }
+    .footer-container p
+    {
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #e2ad7c; 
+        text-align: center;
+        line-height: 80px;
+    }
+}
